@@ -1,0 +1,124 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  border-left: 5px solid slategray;
+  font-family: "Quicksand", sans-serif;
+  font-size: 24px;
+}
+
+body {
+  min-height: 100vh;
+  max-width: 1000px;
+  margin: auto;
+  border-left: 0.5rem solid lightgray;
+}
+
+/* Header styles */
+.header {
+  padding: 1rem 2rem;
+}
+
+.header h1 {
+  color: tomato;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.header h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Navigation styles */
+.header-nav {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  gap: 2rem;
+  margin: 1rem 0;
+}
+
+.header-nav a {
+  color: darkgray;
+  text-decoration: none;
+}
+
+.footer-nav {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+
+.footer-nav a {
+  color: tomato;
+  text-decoration: none;
+}
+
+/* Main content styles */
+.main {
+  padding: 1rem 2rem;
+}
+
+/* Article styles */
+.article {
+  margin-bottom: 4rem;
+  border-bottom: 1px solid darkgray;
+  padding-bottom: 2rem;
+}
+
+.article .date {
+  color: gray;
+  margin-bottom: -20px;
+  font-size: 1.3rem;
+}
+
+.article h3 {
+  font-size: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.article-image {
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.article p {
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.article p:first-letter {
+  float: left;
+  font-size: 4rem;
+  font-weight: 600;
+  color: darkgray;
+  margin: -10px 10px -10px 0;
+}
+
+.article .continues {
+  display: block;
+  text-align: right;
+  font-weight: bold;
+  color: tomato;
+  text-decoration: none;
+  margin-top: 1.5rem;
+}
+
+/* Footer styles */
+.footer {
+  padding: 1rem 1rem;
+}
+
+.footer p {
+  color: darkgray;
+  font-size: 0.8rem;
+}
